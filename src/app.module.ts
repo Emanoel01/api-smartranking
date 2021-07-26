@@ -5,7 +5,7 @@ import { JogadoresModule } from './jogadores/jogadores.module';
 @Module({
   imports: [
     JogadoresModule,
-    MongooseModule.forRoot('mongodb://localhost:27017', {
+    MongooseModule.forRoot('mongodb://localhost:3005', {
       dbName: 'smartranking',
       useNewUrlParser: true,
       useCreateIndex: true,
